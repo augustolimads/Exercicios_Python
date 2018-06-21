@@ -1,0 +1,6 @@
+print('Testar triângulo')
+l1 = float(input('Digite o lado l1:'))
+l2 = float(input('Digite o lado l2:'))
+l3 = float(input('Digite o lado l3:'))
+tri = bool((l1 < l2 + l3) and (l2 < l1 + l3) and (l3 < l1 + l2))
+print(tri)

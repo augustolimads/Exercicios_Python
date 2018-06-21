@@ -1,0 +1,5 @@
+print('Analisando cidade')
+cid = str(input('Digite o nome da cidade que você mora:')).strip()
+cid = cid.lower()
+print('Ela começa com a palavra Santo? {}'.format('santo' in cid))
+print(cid[:5].lower() == 'santo')
